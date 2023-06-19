@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
@@ -18,9 +19,9 @@ int main()
 
     switch (choice)
     {
-    case 1:printf("Circumference = %.2f ",2*3.14*rad);break;
-    case 2:printf("Area = %.2f ",3.14*rad*rad);break;
-    case 3:printf("Volume = %.2f ",(4/3)*3.14*rad*rad*rad);break;
+    case 1:printf("Circumference = %.2f ",2*M_PI*rad);break;
+    case 2:printf("Area = %.2f ",M_PI*rad*rad);break;
+    case 3:printf("Volume = %.2f ",(4/3)*M_PI*rad*rad*rad);break;
     default:printf("Invalid output");
     }
     return 0;
