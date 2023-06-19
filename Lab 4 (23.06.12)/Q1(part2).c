@@ -10,7 +10,7 @@ int main()
       {
           case 0:printf("%d is a even number ",n);break;
           case 1:printf("%d is a odd number ",n);break;
-          default printf("Invalid Output ");
+          default:printf("Invalid Output ");
       }
     return 0;
 }
