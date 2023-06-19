@@ -19,7 +19,7 @@ int main()
         case 'O':
         case 'u':
         case 'U':printf("%c is a vowel \n",ch);break;
-        default:printf("%c not a vowel \n",ch);
+        default:printf("%c is a consonant \n",ch);
     }
     return 0;
 }
