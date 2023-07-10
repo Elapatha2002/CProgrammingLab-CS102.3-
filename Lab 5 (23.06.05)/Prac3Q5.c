@@ -12,12 +12,5 @@ int main()
    } else {
         printf("%d is not a multiple of the %d ",n1,n2);
    }
-
-
-
-
-
-
-
     return 0;
 }
